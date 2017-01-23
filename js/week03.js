@@ -7,7 +7,7 @@ while (!letter) { // use ! before a variable, this means not. in this case, !let
 
 for (i = 0; i < 10; i += 1) { // this is a standard for loop, (value, condition, what to increment by, so as long as i < 10, add 1 and continue through the loop. if 1 >= 10, exit the loop
 	
-	for (k=0; k < i; k += 1) { // this is another loop inside the first, it prints letter over and over until k >= i then it leaves the loop
+	for (k=0; k <= i; k += 1) { // this is another loop inside the first, it prints letter over and over until k >= i then it leaves the loop
 		document.write (letter);
 		
 	}
